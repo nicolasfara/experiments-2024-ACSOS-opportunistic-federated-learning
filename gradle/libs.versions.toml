@@ -1,7 +1,7 @@
 [versions]
 alchemist = "33.1.1"
 kotlin = "1.9.23"
-scalapy = "0.5.3+2-d2eb0088"
+scalapy = "0.5.3+14-95e6ab08"
 
 [libraries]
 alchemist = { module = "it.unibo.alchemist:alchemist", version.ref = "alchemist" }
