@@ -16,7 +16,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4.1.4
-    - uses: actions/setup-python@v5.1.0
+    - uses: actions/setup-python@v5.1.1
       with:
         python-version: '3.11'
     - uses: DanySK/build-check-deploy-gradle-action@2.4.17
@@ -41,7 +41,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
       - name: Install python
-        uses: actions/setup-python@v5.1.0
+        uses: actions/setup-python@v5.1.1
       - name: Upgrade pip
         run: pip install --upgrade pip --user
       - name: Install latex for fonts in charts
